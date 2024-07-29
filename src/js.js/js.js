@@ -44,9 +44,9 @@ $(document).ready(function () {
   $(".carousel__inner").slick({
     speed: 1200,
     prevArrow:
-      '<button type="button" class="slick-prev"><img id="slick" src="../image/slider/arrows/chevron-left-solid.png"></button>',
+      '<button type="button" class="slick-prev"><img id="slick" src="image/slider/arrows/chevron-left-solid.png"></button>',
     nextArrow:
-      '<button type="button" class="slick-next"><img id="slick" src="../image/slider/arrows/chevron-right-solid.png"></button>',
+      '<button type="button" class="slick-next"><img id="slick" src="image/slider/arrows/chevron-right-solid.png"></button>',
     responsive: [
       {
         breakpoint: 768,
@@ -181,5 +181,3 @@ $('a[href=#up]').click(function(){
 })
 new WOW().init();
 });
-
-

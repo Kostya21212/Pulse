@@ -1,19 +1,24 @@
-.carousel{
-    background-color: #f6f6f6;
-    padding: 81px 0;
-    &__inner{
-        display: flex;
-        width: 650px;
-        height: 500px;
+.carousel {
+    background-color:white;
+    &__inner {
+        position: relative;
+        width: 750px;
         margin: 0 auto;
-        
-        justify-content: center; 
-    };
-    
-   
-}
-.container_carousel{
-        display: flex;
-        flex-direction: row;
-        
     }
+    .slick-prev, .slick-next  {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -66px;
+        border: none;
+        background-color: #fff;
+        img {
+            width: 31px;
+            height: 50px;
+        }
+    }
+    .slick-next  {
+        right: -66px;
+        left: auto;
+    }
+}

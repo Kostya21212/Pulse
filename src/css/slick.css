@@ -37,13 +37,28 @@
     flex-direction: row;
     gap: 25px;
 }
-#slick{
+/* #slick{
     background-color: #fff;
     border: none;
     padding: 0;
-}
+} */
 #container{
     position:relative
+}
+#slick{
+   background-color:#fff;
+    padding: 0;
+    border:none
+}
+.slick-prev{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.slick-next{
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 .slick-list
 {
